@@ -6,8 +6,8 @@ echo "Understanding Shells
 A shell is a text-based interface that lets you talk to your computer.
 There are different types of shells. Bash (Bourne Again SHell)
 is popular because it's powerful and easy to use." >> shell.txt
-cat -n shell.txt 
-cat -b shell.txt 
+cat -n shell.txt #Add numbers to each line
+cat -b shell.txt #Add numbers only to lines with text
 touch file.txt
 echo "This is a test file" > file.txt
 cp file.txt copy-file.txt #source to destination
