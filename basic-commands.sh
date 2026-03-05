@@ -10,9 +10,9 @@ cat -n shell.txt
 cat -b shell.txt 
 touch file.txt
 echo "This is a test file" > file.txt
-cp file.txt copy-file.txt
-mv file.txt /usr/
-mv copy-file.txt original-file.txt
-rm file.txt
+cp file.txt copy-file.txt #source to destination
+mv file.txt /usr/   #move to certain folder
+mv copy-file.txt original-file.txt #rename the file from old name to new name
+rm file.txt #remove the file
 mkdir system
 man mkdir
