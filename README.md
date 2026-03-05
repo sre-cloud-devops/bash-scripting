@@ -1,5 +1,5 @@
-# shell-scripting
-This repo contains the shell scripting
+# bash-scripting
+This repo contains the bash scripting
 # w3 schools for the bash 
 https://www.w3schools.com/bash/
 
