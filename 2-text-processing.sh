@@ -4,7 +4,7 @@ ps -ef | grep amazon | awk -F" " '{print $2}' #Pattern scanning and processing l
 { echo "PID_LIST"; ps -ef | grep amazon | awk -F" " '{print $2}';} 
 sed 's/World/Bash/' example_text.txt # only replcae the word not saving it
 sed 's/World/BASH..BASH/' -i hello.txt # replace the word and save it
-{ echo "Name-List"; cut -f1 list.txt ; } >> cut.txt
+{ echo "Name-List"; cut -f1 list.txt ; } >> cut.txt #cut the first column and stored it in the list.txt file
 sort -n fruits.txt #numbers
 sort -r fruits.txt #reverse order
 tail logfile.txt #Display Last Part of Files
