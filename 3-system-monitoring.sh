@@ -2,7 +2,7 @@ ps  #Snapshot of Current Processes
 ps -ef #snapshot of all process
 top #Real Time System Monitoring
 df -h #Disk free space - h shows in human readable format , k, m, g - kilo, mega and giga bytes ; -t 
-du -h #File Space Usage
+du -sh #Files and directories Space Usage
 free -g #Display Free and Used Memory
 kill #Terminate Processes
 #-9: Forcefully terminate a process.
